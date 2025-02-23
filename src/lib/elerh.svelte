@@ -1,6 +1,6 @@
 <script>
     import { onMount } from 'svelte'
-    var current_url = ''
+    var current_url = '/inf_honlap2/'
     onMount(async () => {
         current_url = window.location.href
     })
