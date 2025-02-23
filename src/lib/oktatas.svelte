@@ -20,7 +20,7 @@
     var ssmds = $derived(list[selected_subject].md)
     let current_url = '/inf_honlap2/'
     const getmd = async () => {       
-        var file = await fetch(current_url + '/md/' + list[selected_subject]?.mds[selected_year] + '.md')
+        var file = await fetch(current_url + 'md/' + list[selected_subject]?.mds[selected_year] + '.md')
         result = md.render(await file.text())
     }
     onMount(async () => {

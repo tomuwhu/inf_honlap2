@@ -7,7 +7,7 @@
     var height = $state(window.innerHeight)
     onMount(async () => {
         current_url = window.location.href
-        var file = await fetch(current_url + '/md/_pl.md')
+        var file = await fetch(current_url + 'md/_pl.md')
         result = md.render(await file.text())    
     })
     </script>
