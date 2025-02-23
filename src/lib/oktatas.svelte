@@ -1,4 +1,5 @@
 <script>
+    import { onMount } from 'svelte'
     import markdownit from 'markdown-it'
     const md = markdownit()
     var height = $state(window.innerHeight)
@@ -17,10 +18,14 @@
     ])
     var ssyears = $derived(list[selected_subject].years)
     var ssmds = $derived(list[selected_subject].md)
+    let current_url = ''
     const getmd = async () => {       
-        var file = await fetch('/md/' + list[selected_subject]?.mds[selected_year] + '.md')
+        var file = await fetch(current_url + '/md/' + list[selected_subject]?.mds[selected_year] + '.md')
         result = md.render(await file.text())
     }
+    onMount(async () => {
+        current_url = window.location.href
+    })
 </script>
 <svelte:window bind:innerHeight={height} />
 <div>
