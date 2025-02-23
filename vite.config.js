@@ -5,6 +5,7 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 export default defineConfig({
   plugins: [svelte()],
   build: {
+    basedir: 'inf_honlap2',
     outDir: 'docs',
   }
 })
