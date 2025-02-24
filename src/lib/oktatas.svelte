@@ -6,7 +6,6 @@
     var selected_year = $state(0)
     var result = $state('')
     const list = $state([
-        {name: '', year: [], md: []},
         {name: 'Algoritmusok és adatszerkezetek I.', years: [2024, '2009-2014'], mds: ['alga1', 'alga1_old']},
         {name: 'Algoritmizálás', years: ['2012-2024'], mds: ['algo']},
         {name: 'Elemi informatika I.', years: ['2016-2020'], mds: ['eli1']},
@@ -15,11 +14,10 @@
         {name: 'Oktatást támogató informatikai rendszerek', years: ['2016-2024'], mds: ['otir']},
         {name: 'Programozási versenyek feladatainak megoldása', years: ['2016-2024'], mds: ['pmsz']},
     ])
-    var ssyears = $derived(list[selected_subject].years)
-    var ssmds = $derived(list[selected_subject].md)
+    var ssyears = $derived(list[selected_subject - 1].years)
     let current_url = '/inf_honlap2'
     const getmd = async () => {       
-        var file = await fetch(current_url + '/md/' + list[selected_subject]?.mds[selected_year] + '.md')
+        var file = await fetch(current_url + '/md/' + list[selected_subject-1]?.mds[selected_year] + '.md')
         result = md.render(await file.text())
     }
 </script>
@@ -33,7 +31,7 @@
                 getmd()
             }}>
             {#each list as item, index}
-                <option value={index}>{item.name}</option>
+                <option value={index+1}>{item.name}</option>
             {/each}
         </select>
     </div>
@@ -44,9 +42,13 @@
             {/each}
         </select>
     </div>
+    <button onclick={() => {
+        selected_year = 0
+        selected_subject = 0
+    }} class="ui small blue button">x</button>
 </div>
 <div class="ui divider"></div>
-<code style="height: {height - 120}px;">
+<code style="height: {height - 140}px;">
     {@html result}
 </code>
 {:else}
@@ -61,18 +63,16 @@
     </thead>
     <tbody>
     {#each list as item, index}
-        {#if index>0}
-            <tr><td>{item.name}</td><td>
-                {#each item.years as year}
-                    <button class="ui blue small button year"
-                    onclick={() => {
-                        selected_subject = index
-                        selected_year = item.years.indexOf(year)
-                        getmd()
-                    }}>{year}</button>
-                {/each}
-            </td></tr>
-        {/if}
+        <tr><td>{item.name}</td><td>
+            {#each item.years as year}
+                <button class="ui blue small button year"
+                onclick={() => {
+                    selected_subject = index + 1
+                    selected_year = item.years.indexOf(year)
+                    getmd()
+                }}>{year}</button>
+            {/each}
+        </td></tr>
     {/each}
     </tbody>
     </table>
