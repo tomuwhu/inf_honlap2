@@ -6,7 +6,8 @@ let current_url = '/inf_honlap2'
 var result = $state('')
 var height = $state(window.innerHeight)
 onMount(async () => {
-    var file = await fetch(current_url + '/md/_cv.md')
+    console.log(current_url + '/md/_cv.md')
+    var file = await fetch(current_url + '/md/aacv.md')
     result = md.render(await file.text())    
 })
 </script>

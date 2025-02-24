@@ -55,7 +55,7 @@ code {
 }
 .selectrow2 {
     display: inline-block;
-    width: 100px;
+    width: 150px;
     text-align-last: right;
 }
 </style>
