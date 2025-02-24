@@ -1,9 +1,5 @@
 <script>
-    import { onMount } from 'svelte'
-    var current_url = '/inf_honlap2/'
-    onMount(async () => {
-        current_url = window.location.href
-    })
+    var current_url = '/inf_honlap2'
 </script>
 <div class="c">
     <div class="image"><img src="{current_url}/myface.jpg" alt="MyFace"></div>
