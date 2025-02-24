@@ -24,10 +24,14 @@
     }
 </script>
 <svelte:window bind:innerHeight={height} />
+{#if selected_subject > 0}
 <div>
     <div class="selectrow">
         <select class="ui fluid dropdown" bind:value={selected_subject}
-            onchange={getmd}>
+            onchange={() => {
+                selected_year = 0
+                getmd()
+            }}>
             {#each list as item, index}
                 <option value={index}>{item.name}</option>
             {/each}
@@ -45,9 +49,49 @@
 <code style="height: {height - 120}px;">
     {@html result}
 </code>
+{:else}
+<div>
+    <h2>Oktatott tárgyak</h2>
+    <table class="ui table x">
+    <thead>
+        <tr>
+            <th>Neve</th>
+            <th>Szemeszter</th>
+        </tr>
+    </thead>
+    <tbody>
+    {#each list as item, index}
+        {#if index>0}
+            <tr><td>{item.name}</td><td>
+                {#each item.years as year}
+                    <button class="ui blue small button year"
+                    onclick={() => {
+                        selected_subject = index
+                        selected_year = item.years.indexOf(year)
+                        getmd()
+                    }}>{year}</button>
+                {/each}
+            </td></tr>
+        {/if}
+    {/each}
+    </tbody>
+    </table>
+</div>
+{/if}
 <style>
+table.x {
+    margin: auto;
+    display: table;
+    max-width: 800px;
+    min-width: 50%;
+}
+button.year {
+    padding: 5px;
+    margin: -10px 5px;
+}
 code {
     width: 900px;
+    user-select: all;
 }
 .selectrow {
     display: inline-block;
