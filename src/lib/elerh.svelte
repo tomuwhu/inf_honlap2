@@ -30,7 +30,7 @@
         margin-right: 20px;
     }
     .image img {
-        width: 200px;
+        width: 150px;
         border-radius: 20px;
         border: solid 10px white;
     }
