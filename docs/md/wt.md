@@ -1,4 +1,4 @@
-# Intelligens felhasználói interfészek - SvelteKit
+# Webes technológiák - SvelteKit/Drizzle/Turso/Lucia
 
 ## Előismereti feltételek
 
@@ -36,7 +36,7 @@
 - Domain beállítások
 - Adatvédelmi tudnivalók, GitGuardian
 
-### [VSCode](https://code.visualstudio.com/) használata
+### [VSCode](https://code.visualstudio.com/)/[Cursor](https://www.cursor.com/en) használata
 
 - kód bevitel
 - UTF-8, Szimbólumok
@@ -48,7 +48,6 @@
   - Live Share
   - Markdown All in One
   - IntelliCode/Codeium
-  - Svelte preview
 
 ### HTML/CSS/Markdown/SVG/JS ismétlés
 
@@ -145,12 +144,7 @@
 - Külső hitelesítés, OAUTH2.0, kulcskarika
 - Hitelesítési adatok tárolása: környezeti változók
 
-### Hosting
-
-- *Hosting: [Netlify](https://www.netlify.com/)*
-- *[Aiven for MySQL](https://aiven.io/mysql): mysql2-async*
-
-## Tematika
+## SvelteKit
 
 ### [Svelte](https://svelte.dev/docs/introduction)
 
@@ -173,7 +167,7 @@
 - Svelte Store
 - Motion, Transition, Animation
 
-### [SvelteUI](https://svelteui.dev/theming/dark-theme) / [Flowbite Svelte](https://flowbite-svelte.com/)
+### [Semantic-UI](https://semantic-ui.com/) / [Tailwindcss](https://tailwindcss.com/)
 
 - Telepítés
 - Funkciók
@@ -181,11 +175,6 @@
 - Tartalom
 - Űrlapok
 - Komponensek
-- Egyéb UI könyvtárak
-  - [SVELTESTRAP](https://sveltestrap.js.org/?path=/docs/sveltestrap-overview--docs)
-  - [Svelte Material UI](https://sveltematerialui.com/)
-  - [Svelte Headless UI](https://svelte-headlessui.goss.io/docs/2.0)
-  - [Attractions](https://illright.github.io/attractions/)
 
 ### *[Vite](https://vitejs.dev/guide/), [SvelteKit](https://kit.svelte.dev/docs/introduction)*
 
@@ -228,6 +217,18 @@
     - *[MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register)*
     - *[Aiven for MySQL](https://aiven.io/mysql): mysql2-async*
 
-## Számonkérés
+## SvelteKit
+
+## Drizzle
+
+## Turso
+
+## Lucia
+
+### Hosting
+
+- [Turso](https://docs.turso.tech/quickstart)
+- [Netlify](https://www.netlify.com/)
+- *[Aiven for MySQL](https://aiven.io/mysql)*
 
 Portfólió alapú számonkérés, hallgatói projekt értékelése.
