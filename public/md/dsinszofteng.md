@@ -34,7 +34,7 @@ A Kollokvium ennek a fejlesztett projektnek a védéséből áll.
 
 ### [Basic Concepts](https://www.youtube.com/watch?v=lkIFF4maKMU)
 
-### [![Logók](https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png)](https://github.com/logos)
+### [GitHUB](https://github.com/logos)
 
 - github regisztráció
 - git telepítés

@@ -104,4 +104,8 @@ code {
     width: 150px;
     text-align-last: right;
 }
+:global(img) {
+    width: 100px;
+    background-color: aliceblue;
+}
 </style>
