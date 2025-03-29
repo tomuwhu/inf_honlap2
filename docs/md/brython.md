@@ -2,7 +2,8 @@
 
 ## GitHub
 
-- github regisztráció, git telepítés, git beállítása, git init, clone, add, commit, push, pull,
+- github regisztráció, git telepítés, git beállítása,
+- git init, clone, add, commit, push, pull,
 - git pull --rebase, .gitignore
 - index.html, README.md
 - Beállítások, GitHub Pages
