@@ -15,6 +15,8 @@
         {name: 'Programozási versenyek feladatainak megoldása', years: ['2016-2024'], mds: ['pmsz']},
         {name: 'Webes technológiák - SvelteKit/Drizzle/Turso/Lucia', years: ['nem akítv'], mds: ['wt']},
         {name: 'Elemi algoritmusok és adatstruktúrák alkalmazása a szoftverfejlesztésben', years: ['tervezett: 2025 ősz'], mds: ['dsinszofteng']},
+        {name: 'Elemi algoritmusok és programozási eszközök a közoktatásban', years: ['Új tanárképzős tárgy'], mds: ['algandprogakn']},
+        {name: 'Brython', years: ['Új tanárképzős tárgy'], mds: ['brython']},
     ])
     var ssyears = $derived(list[selected_subject - 1].years)
     let current_url = '/inf_honlap2'
@@ -101,7 +103,7 @@ code {
 }
 .selectrow2 {
     display: inline-block;
-    width: 150px;
+    width: 220px;
     text-align-last: right;
 }
 :global(img) {
