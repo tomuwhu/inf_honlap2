@@ -99,7 +99,7 @@ code {
 }
 .selectrow {
     display: inline-block;
-    width: 300px;
+    width: 500px;
 }
 .selectrow2 {
     display: inline-block;
