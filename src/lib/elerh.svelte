@@ -8,7 +8,7 @@
         <p>adjunktus</p>
         <p><a href="https://inf.u-szeged.hu/" target="_blank">SZTE TTIK Informatikai Intézet</a></p>
         <p><a href="https://inf.u-szeged.hu/fcs" target="_blank">Számítástudomány Alapjai Tanszék</a></p>
-        <p>Szeged, Tisza Lajos krt. 103. (H-6701 Szeged, Postafiók 652.)</p>
+        <p>Szeged, Tisza Lajos krt. 103. (Irinyi Épület, 70-es szoba)</p>
         <p class="email">t n e m e t h  @   i n f . u - s z e g e d . h u</p>
     </div>
 </div>
