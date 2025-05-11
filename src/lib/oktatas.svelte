@@ -19,7 +19,7 @@
         {name: 'Brython', years: ['Új tanárképzős tárgy'], mds: ['brython']},
     ])
     var ssyears = $derived(list[selected_subject - 1].years)
-    let current_url = '/inf_honlap2'
+    let current_url = '.'
     const getmd = async () => {       
         var file = await fetch(current_url + '/md/' + list[selected_subject-1]?.mds[selected_year] + '.md')
         result = md.render(await file.text())
