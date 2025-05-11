@@ -1,5 +1,5 @@
 <script>
-    var current_url = '/inf_honlap2'
+    var current_url = '.'
 </script>
 <div class="c">
     <div class="image"><img src="{current_url}/myface.jpg" alt="MyFace"></div>
