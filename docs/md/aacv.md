@@ -42,15 +42,15 @@
   - ügyvezető (2008-2019) _(részmunkaidő)_
   - szoftverfejlesztés irányítása (TISZK-VIR, SNW rendszer, ...)
 - [Pannon Egyetem, Veszprém](https://uni-pannon.hu/)
-  - tudományos munkatárs részmunkaidő (2016-2017) _(részmunkaidő)_
+  - tudományos munkatárs (2016-2017) _(részmunkaidő)_
   - gráfelméleti kutatások
 - [Fraunhofer Institut IIS](https://www.iis.fraunhofer.de/) Kutatóintézet
   - Am Wolfsmantel 33, 91058 Erlangen - Németország
-  - tudományos munkatárs r(2009.) _(részmunkaidő)_
+  - tudományos munkatárs (2009.) _(részmunkaidő)_
   - online klaszterezés [RTLS rendszer](http://publicatio.bibl.u-szeged.hu/5748/1/info51_1_u.pdf)
-- [Nemzeti Szakképzési és Felnőttképzési Hivatal](https://www.nive.hu/)
-  - Szakiskolai Fejlesztési Program részmunkaidő (2007-2008)
-  - Országos Szakiskolai Kompetenciamérés (szoftverfejlesztés irányítása)
+- [Nemzeti Szakképzési és Felnőttképzési Intézet](https://www.nive.hu/)
+  - Szakiskolai Fejlesztési Program (2007-2008) _(megbízás)_
+  - Országos Szakiskolai Kompetenciamérés (szoftverfejlesztés irányítása) _(megbízás)_
 - [Szegedi Szakképzési Centrum](http://szakkepzesszeged.hu/) 
   - tanár: Móravárosi Szakgimnáziuma és Szakközépiskolája (2001-2010) *(főállás)*
   - tanár: Gábor Dénes Szakgimnáziuma és Szakközépiskolája (1995-2000) *(főállás)*
