@@ -7,16 +7,16 @@
     var result = $state('')
     const list = $state([
         {name: 'Algoritmusok és adatszerkezetek I.', years: [2024, '2009-2014'], mds: ['alga1', 'alga1_old']},
-        {name: 'Algoritmizálás', years: ['2012-2024'], mds: ['algo']},
+        {name: 'Algoritmizálás', years: ['2012-jelenleg'], mds: ['algo']},
         {name: 'Elemi informatika I.', years: ['2016-2020'], mds: ['eli1']},
         {name: 'Elemi informatika II.', years: ['2016-2020'], mds: ['eli2']},
         {name: 'Informatikai alkalmazások', years: ['2016-2022'], mds: ['infalk']},
-        {name: 'Oktatást támogató informatikai rendszerek', years: ['2016-2024'], mds: ['otir']},
+        {name: 'Oktatást támogató informatikai rendszerek', years: ['2016-jelenleg'], mds: ['otir']},
         {name: 'Programozási versenyek feladatainak megoldása', years: ['2016-2024'], mds: ['pmsz']},
-        {name: 'Webes technológiák - SvelteKit/Drizzle/Turso/Lucia', years: ['nem akítv'], mds: ['wt']},
-        {name: 'Elemi algoritmusok és adatstruktúrák alkalmazása a szoftverfejlesztésben', years: ['tervezett: 2025 ősz'], mds: ['dsinszofteng']},
-        {name: 'Elemi algoritmusok és programozási eszközök a közoktatásban', years: ['Új tanárképzős tárgy'], mds: ['algandprogakn']},
-        {name: 'Brython', years: ['Új tanárképzős tárgy'], mds: ['brython']},
+        {name: 'Webes technológiák - SvelteKit/Drizzle/Turso/Lucia', years: ['2024'], mds: ['wt']},
+        //{name: 'Elemi algoritmusok és adatstruktúrák alkalmazása a szoftverfejlesztésben', years: ['tervezett: 2025 ősz'], mds: ['dsinszofteng']},
+        //{name: 'Elemi algoritmusok és programozási eszközök a közoktatásban', years: ['Új tanárképzős tárgy'], mds: ['algandprogakn']},
+        //{name: 'Brython', years: ['Új tanárképzős tárgy'], mds: ['brython']},
     ])
     var ssyears = $derived(list[selected_subject - 1].years)
     let current_url = '.'

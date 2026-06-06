@@ -25,11 +25,11 @@
 
 - [Szegedi Tudományegyetem](http://www.inf.u-szeged.hu/)
   - **adjunktus (2015.01.01-től jelenleg) _(főállás)_**
-  - Intézetvezető helyettes - oktatási ügyek (2014-2017)
+  - _Intézetvezető helyettes - oktatási ügyek (2014-2017, 2026-jelenleg)_
   - tanársegéd (2011.01.01. - 2014.12.31.) _(főállás)_
   - demonstrátor (2008.09.01. - 2010.12.31.) _(részmunkaidő)_
 - [Tisza-parti Általános Iskola](https://www.tiszaparti.hu/)
-  - tanár (2025-) _(részmunkaidő)_
+  - tanár (2025-2026) _(részmunkaidő)_
 - [School of Business Technikum](http://sobszeged.hu/)
   - oktató (2023-2025) _(részmunkaidő)_
 - [SZTE Báthory István Gyakorló Gimnázium](http://www.gyakg.u-szeged.hu/sagvari/)

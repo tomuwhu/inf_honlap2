@@ -11,7 +11,7 @@
     })
     </script>
     <svelte:window bind:innerHeight={height} />
-    <code style="height: {height - 80}px;">
+    <code style="height: {height - 80}px; width: 90%; overflow: auto; margin: 10px; padding: 10px; border: 3px solid #111;">
         {@html result}
     </code>
     <style>
