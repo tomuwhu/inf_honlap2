@@ -67,6 +67,8 @@ button:focus-visible {
 }
 
 code {
+  background-color: #1a1a1a;
+  color: #dbdac3bb;
   height: fit-height;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
