@@ -4,8 +4,8 @@
 <div class="c">
     <div class="image"><img src="{current_url}/myface.jpg" alt="MyFace"></div>
     <div class="elerh">
-        <h2>Németh Tamás</h2>
-        <p>adjunktus</p>
+        <h2>Dr. Németh Tamás</h2>
+        <p>Oktatási intézetvezető-helyettes</p>
         <p><a href="https://inf.u-szeged.hu/" target="_blank">SZTE TTIK Informatikai Intézet</a></p>
         <p><a href="https://inf.u-szeged.hu/fcs" target="_blank">Számítástudomány Alapjai Tanszék</a></p>
         <p>Szeged, Tisza Lajos krt. 103. (Irinyi Épület, 70-es szoba)</p>
