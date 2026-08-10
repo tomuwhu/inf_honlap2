@@ -14,10 +14,10 @@
 - SZTE TTIK Kreditátviteli bizottság (2024-től jelenleg)
 - SZTE TTIK Tanulmányi bizottság (2020-tól jelenleg)
 - SZTE TTIK Oktatási bizottság (tag 2014-2017)
-- SZTE TTIK Tanárképzési bizottság (tag 2011-2014)
+- SZTE Tanárképzési bizottság (tag 2011-2014)
 - [SZTE TTIK Informatikai Intézet - Oktatási bizottság](https://www.inf.u-szeged.hu/intezet/bizottsagok/oktatasi-bizottsag)
-  - 2011-2024: tag
-  - 2014-2017: elnök
+  - 2011-től: tag
+  - 2014-2017, 2026-tól: elnök
 - [SZTE TTIK Informatikai Intézet - Hardver-szoftver Bizottság](https://www.inf.u-szeged.hu/intezet/bizottsagok/hardver-szoftver-bizottsag)
   - 2011-2019: tag
 
