@@ -1,4 +1,4 @@
-# Algoritmusok és adatszerkezetek I.
+# Algoritmusok és adatszerkezetek II.
 
 [Tankönyv](https://gyakg.es6.eu/irodalom/algasz.pdf)
 
@@ -35,7 +35,8 @@
     - metszés eldöntése, metsző szakaszpárok keresése
     - konvex burok meghatározása, legtávolabbi pontpár keresése
 - 4-es fák, 8-as fák, K-D fák és alkalmazásai, legközelebbi pontpár
-- Szimmetrikus kulcsú titkosítás
+- Szimmetrikus kulcsú titkosítás, ujjlenyomat-módszer
+- Asszimetrikus kulcsú titkosítás
     - RSA algoritmus
     - moduláris hatványozás
     - prímtesztelés
