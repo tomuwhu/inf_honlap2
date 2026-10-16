@@ -14,6 +14,7 @@
         {name: 'Oktatást támogató informatikai rendszerek', years: ['2016-jelenleg'], mds: ['otir']},
         {name: 'Programozási versenyek feladatainak megoldása', years: ['2016-2024'], mds: ['pmsz']},
         {name: 'Dokumentumkészítés és publikálás', years: ['2026-jelenleg'], mds: ['dokkp']},
+        {name: 'Számítógépes rendszerek', years: ['2025-jelenleg'], mds: ['szgr']},
         {name: 'Algoritmusok és adatszerkezetek II / Fejlett algoritmusok és adatszerkezetek', years: ['2026-jelenleg'], mds: ['fejlalg']},
         //{name: 'Webes technológiák - SvelteKit/Drizzle/Turso/Lucia', years: ['2024'], mds: ['wt']},
         //{name: 'Elemi algoritmusok és adatstruktúrák alkalmazása a szoftverfejlesztésben', years: ['tervezett: 2025 ősz'], mds: ['dsinszofteng']},

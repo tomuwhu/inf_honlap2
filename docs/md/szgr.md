@@ -3,7 +3,8 @@
 ## Bevezetés az számítástechnikába
 
 - Informatikai alapfogalmak (jel, adat, információ)
-- Informatikai eszközök működésük és jellemzőik
+- Adatformátumok, kódolás, számábrázolás
+- Informatikai eszközök, működésük és jellemzőik
 - Az informatika története
 - Az informatika területei
 - Számítási problémák és feladatok
@@ -20,16 +21,12 @@
 - fájl és könyvtárstruktúra és kezelése (cd, ls, mkdir, rm, chmod, chown, ...)
 - processek és kezelésük (&, ps, top, kill, )
 - jogosultságkezelés, felhasználók kezelése
-- linkek, környezeti változók, szűrük
-- ssh, ftp
-- Shell Scripting
+- linkek, környezeti változók, szűrők
+- Shell scripting
 
 ## Felhasználói adatfájlok
 
 - Szövegfájlok, karakterkódolás (ASCII, ISO-8859-2, UTF-8).
 - Formázott szöveg (Markdown, MathJax, HTML, ...)
-- Dokumentumkészítés ( Markdown, LaTex, ... )
-- Prezentációkészítés
-- Képformátumok ( pixeles és vektor-grafikus képek, SVG )
 - Hang digitalizálása, hangformátumok
 - Video formátumok + multi formátumok
