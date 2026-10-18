@@ -61,36 +61,49 @@
 {:else}
 <div>
     <h2>Oktatott tárgyak</h2>
-    <table class="ui table x">
-    <thead>
-        <tr>
-            <th>Neve</th>
-            <th>Szemeszter</th>
-        </tr>
-    </thead>
-    <tbody>
-    {#each list as item, index}
-        <tr><td>{item.name}</td><td>
-            {#each item.years as year}
-                <button class="ui blue small button year"
-                onclick={() => {
-                    selected_subject = index + 1
-                    selected_year = item.years.indexOf(year)
-                    getmd()
-                }}>{year}</button>
-            {/each}
-        </td></tr>
-    {/each}
-    </tbody>
-    </table>
+    <div class="table-scroll">
+        <table class="ui table x">
+        <thead>
+            <tr>
+                <th>Neve</th>
+                <th>Szemeszter</th>
+            </tr>
+        </thead>
+        <tbody>
+        {#each list as item, index}
+            <tr><td>{item.name}</td><td>
+                {#each item.years as year}
+                    <button class="ui blue small button year"
+                    onclick={() => {
+                        selected_subject = index + 1
+                        selected_year = item.years.indexOf(year)
+                        getmd()
+                    }}>{year}</button>
+                {/each}
+            </td></tr>
+        {/each}
+        <tr><td></td><td></td></tr>
+        </tbody>
+        </table>
+    </div>
 </div>
 {/if}
 <style>
 table.x {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    text-align: center;
     margin: auto;
     display: table;
     max-width: 800px;
     min-width: 50%;
+}
+.table-scroll {
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #646cff #1a1a1a;
 }
 button.year {
     padding: 5px;
