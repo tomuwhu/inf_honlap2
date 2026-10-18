@@ -1,11 +1,10 @@
 # Számítógépes rendszerek
 
-## Bevezetés az számítástechnikába
+## Bevezetés az informatikába, alapfogalmak
 
 - Informatikai alapfogalmak (jel, adat, információ).
 - Adatformátumok, kódolás, számábrázolás.
 - Informatikai eszközök, működésük és jellemzőik.
-- Az informatika története.
 - Az informatika területei.
 - Számítási problémák és feladatok.
 
@@ -15,7 +14,7 @@
 - számítógép kezelése az operációs rendszer grafikus interfészével,
 - fájlrendszerek, prartíciók, alrendszerek,
 - processzusok, fonalak, erőforrások, ütemezés.
-- Shell, kapcsolók, paraméterek, környezeti változók,
+- PowerShell, kapcsolók, paraméterek, környezeti változók,
 - konzol alkalmazások, ssh, ftp, ...
 - Shell parancsok,
 - fájl és könyvtárstruktúra és kezelése (cd, ls, mkdir, rm, chmod, chown, ...),
