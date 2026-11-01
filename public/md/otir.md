@@ -3,15 +3,13 @@
 **A tárgy ismeratanyaga:**
 
 - Hardvereszközök és felhasználói programok alkalmazása az oktatásban.
-- Az informatika és Informatikai alapismeretek tantárgy oktatásához használható szoftverek.
+- Digitális kultúra tárgy oktatásához használható szoftverek (Szoftverlista az érettségi vizsgára).
 - Oktatási segédanyagok készítéséhez használható szoftverek használata
-  - Markdown
-  - LaTeX
   - Az adatvizualizáció eszközei
   - Animációkészítés
   - Videóleckék készítésének szoftverei
-- Földrjaz, történelem, matematika, kémia és egyéb szaktárgyak oktatásához használható szoftverek.
-- Interaktív tábla és szoftverei, oktatási célszoftverek, szavazórendszerek.
+- Oktatásszervezést támogató szoftverek (oktatásirányítás, órarend tervező, ...)
+- Oktatási célszoftverek, szavazórendszerek.
 - A tanóra adminisztrációjához, házi feladatokhoz kapcsolódó célszoftverek.
 
 **Ajánlott Irodalom:**
