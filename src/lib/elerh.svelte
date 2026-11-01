@@ -9,7 +9,7 @@
         <p>Oktatási intézetvezető-helyettes</p>
         <p><a href="https://inf.u-szeged.hu/fcs" target="_blank">Számítástudomány Alapjai Tanszék</a></p>
         <p>Egyetemi adjunktus</p>
-        <p>Szeged, Tisza Lajos krt. 103. (Irinyi Épület, 70-es szoba)</p>
+        <p>Szeged, Tisza Lajos krt. 103. (Irinyi Épület, 66-os szoba)</p>
         <div class="contact">
         <p class="email">t n e m e t h  @   i n f . u - s z e g e d . h u</p>
         <span>külső vonal: (62) 343-435</span> / <span>belső vonal: 3435</span>
